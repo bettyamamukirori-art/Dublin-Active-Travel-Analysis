@@ -16,7 +16,31 @@ This project processes geographic data to analyse how well connected the cycling
 
 
 
-\## 🎯 Key Findings
+##### \## 🌍 Project Alignment: UN Sustainable Development Goal 11
+
+
+
+This project is based on \*\***UN SDG 11: Sustainable Cities and Communities**\*\*, specifically \*\*Target 11.2\*\*, which aims to provide access to safe, affordable, accessible, and sustainable transport systems for all by 2030. 
+
+
+
+By leveraging Python geospatial libraries to map Dublin's active travel networks against CSO demographic data, this analysis;
+
+
+
+\* \*\*Identifies Infrastructure Gaps:\*\* Highlights residential zones falling completely outside 5-minute (400m) and 10-minute (800m) walking catchments.
+
+
+
+\* \*\*Promotes Transport Equity:\*\* Merges spatial geometry with population data to ensure future cycling lanes (1.5km - 3km buffers) prioritize high-density, underserved communities rather than just affluent city centres.
+
+
+
+\* \*\*Bridges the "Last-Mile":\*\* Provides actionable insights for city planners to connect suburban neighbourhoods to primary transit hubs, reducing reliance on private vehicles and improving urban air quality.
+
+
+
+##### \## 🎯 Key Findings
 
 \* \*\*53,112\*\* residents live within a 10-minute cycling catchment of the target stations.
 
@@ -30,7 +54,7 @@ This project processes geographic data to analyse how well connected the cycling
 
 
 
-\## 🛠️ Tech Stack
+##### \## 🛠️ Tech Stack
 
 \* \*\*Python 3.x\*\*
 
@@ -44,7 +68,7 @@ This project processes geographic data to analyse how well connected the cycling
 
 
 
-\## 📂 Repository Structure
+##### \## 📂 Repository Structure
 
 To run this project locally, ensure your folders are structured as follows. \*(Note: Raw data files are not tracked in this repository due to size; please place them in the `raw` folder before running).\*
 
